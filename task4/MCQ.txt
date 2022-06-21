@@ -1,0 +1,54 @@
+1.Select a Docker file command required to execute a build:
+
+B) FROM
+
+2.The command for listing all containers in Docker is:
+
+A) docker container ls -a
+
+
+3.How to connect from one container to another within the same Docker network?
+
+A) You can use Docker API to ask the hosting system for IPs of the other containers in order to reach them via both UDP and TCP
+
+
+4.The command for transferring files from a host to a Docker container is:
+
+A) docker cp foo.txt mycontainer:/foo.txt
+
+
+5. What is the purpose of using EXPOSE command in Dockerfile?
+
+C) Exposing a specified port on which application is listening in the runtime
+
+
+6. What is a Docker hub?
+
+B) It's a registry service which allows users to download, share and manage Docker images
+
+
+
+7.How to start a terminal session of an already running container?
+
+D) docker exec -it <container_id> /bin/bash
+
+8. How to disable a specific container? Choose one wrong answer:
+
+D) docker container pause <container_id>
+
+9.What is the correct way to pass an argument with a value during Docker build phase?
+
+A) Adding
+
+--build-arg [KEY=VALUE,]
+
+flag to the Docker build command.
+
+
+10. What is the difference between EXPOSE and PUBLISH commands?
+
+A) When not specified neither
+
+EXPOSE
+
+nor -p, the service in the container will only be accessible from outside of the container itself.
